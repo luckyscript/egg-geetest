@@ -1,8 +1,10 @@
 import * as Geetest from 'gt3-sdk';
 
 interface EggGeetestOptions {
-  geetest_id: string;
-  geetest_key: string;
+  client: {
+    geetest_id: string;
+    geetest_key: string;
+  };
   Geetest?: Geetest;
 }
 

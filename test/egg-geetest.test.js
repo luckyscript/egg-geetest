@@ -14,10 +14,16 @@ describe('test/egg-geetest.test.js', () => {
   after(() => app.close());
   afterEach(mock.restore);
 
-  it('should GET /', () => {
+  // it('should GET /', () => {
+  //   return app.httpRequest()
+  //     .get('/')
+  //     .expect('hi, eggGeetest')
+  //     .expect(200);
+  // });
+
+  it('should GET /home', () => {
     return app.httpRequest()
-      .get('/')
-      .expect('hi, eggGeetest')
+      .get('/home')
       .expect(200);
   });
 });

@@ -5,5 +5,5 @@
  * @member Config#eggGeetest
  * @property {String} SOME_KEY - some description
  */
-exports.eggGeetest = {
+exports.geetest = {
 };

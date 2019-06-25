@@ -1,7 +1,7 @@
 'use strict';
 
-const instance = require('./index');
+const geetest = require('./index');
 
 module.exports = app => {
-  if (app.config.geetest) instance(app);
+  geetest(app);
 };
