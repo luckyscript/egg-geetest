@@ -1,4 +1,4 @@
-# egg-egg-geetest
+# egg-geetest
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -7,18 +7,18 @@
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/egg-egg-geetest.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-egg-geetest
-[travis-image]: https://img.shields.io/travis/eggjs/egg-egg-geetest.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-egg-geetest
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-egg-geetest.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-egg-geetest?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-egg-geetest.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-egg-geetest
-[snyk-image]: https://snyk.io/test/npm/egg-egg-geetest/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg-egg-geetest
-[download-image]: https://img.shields.io/npm/dm/egg-egg-geetest.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-egg-geetest
+[npm-image]: https://img.shields.io/npm/v/egg-geetest.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/egg-geetest
+[travis-image]: https://img.shields.io/travis/eggjs/egg-geetest.svg?style=flat-square
+[travis-url]: https://travis-ci.org/eggjs/egg-geetest
+[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-geetest.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/eggjs/egg-geetest?branch=master
+[david-image]: https://img.shields.io/david/eggjs/egg-geetest.svg?style=flat-square
+[david-url]: https://david-dm.org/eggjs/egg-geetest
+[snyk-image]: https://snyk.io/test/npm/egg-geetest/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/egg-geetest
+[download-image]: https://img.shields.io/npm/dm/egg-geetest.svg?style=flat-square
+[download-url]: https://npmjs.org/package/egg-geetest
 
 <!--
 Description here.
@@ -27,7 +27,7 @@ Description here.
 ## Install
 
 ```bash
-$ npm i egg-egg-geetest --save
+$ npm i egg-geetest --save
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ $ npm i egg-egg-geetest --save
 // {app_root}/config/plugin.js
 exports.eggGeetest = {
   enable: true,
-  package: 'egg-egg-geetest',
+  package: 'egg-geetest',
 };
 ```
 
